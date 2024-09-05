@@ -21,7 +21,10 @@
       msg: "Hello {{PERSON}}, Good {{WISHES}}"
 
 
-## CMD
-## TASK 
-## FILE 
-## PROMPT
+## 1.CMD
+## 2.TASK 
+## 3.FILE 
+## 4.PROMPT
+## 5.PLAY
+## 6.INVENTORY
+## 7.ROLES
