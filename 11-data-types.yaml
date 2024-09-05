@@ -2,16 +2,16 @@
   hosts: localhost
   vars:
     NAME: Sivakumar  # key values
-    Skills: # skills is a list type 
+    SKILLS: # skills is a list type 
     - DevOps
     - Shell
     - Ansible
     - Linux
-    Experience: #Experirnce is map type it contains keyvalue pairs
+    EXPERIENCE: #Experirnce is map type it contains keyvalue pairs
       Devops: 7
       AWS: 6
       Docker: 4
-    Trainer: true #boolean
+    TRAINER: true #boolean
   tasks:
   - name: print key value pair
     ansible.builtin.debug:
@@ -25,4 +25,4 @@
   - name: print boolean
     ansible.builtin.debug:
       msg: "is he trainer: {{TRAINER}}"
-      
+
